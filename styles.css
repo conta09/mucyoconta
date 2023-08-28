@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Merriweather&family=Noto+Sans+Syriac+Eastern:wght@300&family=Open+Sans&family=Poppins&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&family=Merriweather&family=Noto+Sans+Syriac+Eastern:wght@300&family=Open+Sans&family=Poppins&family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: #f6f6f6;
+  
+}
+#first{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.intro{
+    color: #323235;
+    font-family: 'Inter', sans-serif;
+    width: 40%;
+}
+.intro h1{
+    font-size: 5rem;
+    text-align: center;
+
+}
+.intro p{
+    font-size: 15px;
+    color: #46464a;
+    text-align: center;
+    font-weight: 300;
+
+}
+#jobs{
+height: 80vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.job-container{
+    padding: 30px;
+    background-color: #eceff1;
+    width: 70%;
+    display: flex;
+    border-radius: 12px;
+}
+.job-descriptions{
+    width: 40%;
+    font-family: 'Inter', sans-serif;
+
+}
+.job-descriptions h1{
+    font-size: 1.8rem;
+
+}
